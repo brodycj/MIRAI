@@ -2,9 +2,9 @@ name: MIRAI on MIRAI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ '*' ]
 
 jobs:
   build_with_vcpkg_installed_z3:
